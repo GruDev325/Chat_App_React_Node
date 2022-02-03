@@ -25,7 +25,7 @@ function App() {
         dispatch(setUser({
           name: user.displayName,
           email: user.email,
-          permission: user.email.indexOf('@levelshealth.com') > -1
+          permission: user.email.indexOf('@gmail.com') > -1
         }));
       } else {
         history.push('/login')
